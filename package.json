@@ -1,0 +1,15 @@
+{
+  "name": "deiec.iec.cat",
+  "version": "1.0.0",
+  "dependencies": {
+    "better-sqlite3": "^11.7.0",
+    "cheerio": "^1.0.0",
+    "fast-csv": "^5.0.2"
+  },
+  "devDependencies": {
+    "prettier": "^3.4.2"
+  },
+  "scripts": {
+    "fix": "prettier --write *.js *.json"
+  }
+}

@@ -1,0 +1,10 @@
+# dependencies
+/node_modules
+
+# data files
+/data
+/conjugacions/
+
+# temporary files
+/kindle/
+/Diccionari Essencial de la Llengua Catalana/
