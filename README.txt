@@ -1,5 +1,9 @@
 Diccionari essencial de la llengua catalana (DEIEC) en format MOBI
 
+Descarregueu el diccionari baixant el fitxer deiec.zip d'aquest repositori.
+
+Vegeu les instruccions d'instal·lació a https://www.softcatala.org/programes/diccionari-essencial-de-la-llengua-catalana-deiec/
+
 © Institut d’Estudis Catalans
 Carrer del Carme, 47. 08001 Barcelona
 URL: https://deiec.iec.cat/
