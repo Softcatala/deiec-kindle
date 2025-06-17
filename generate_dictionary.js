@@ -44,7 +44,9 @@ function generateDictionaryEntry(id, headword, terms, body) {
   const inflSection =
     additionalForms.length > 0
       ? `<idx:infl>
-        ${additionalForms.map((term) => `<idx:iform value="${term}" exact="true"></idx:iform>`).join(" ")}
+        ${additionalForms
+          .map((term) => `<idx:iform value="${term}" exact="true"></idx:iform>`)
+          .join(" ")}
       </idx:infl>`
       : "";
 
@@ -225,7 +227,10 @@ function generateOpfFile(outputDir, fileNames) {
     ${fileNames
       .map(
         (fileName, index) =>
-          `<item id="deiec${String(index + 1).padStart(3, "0")}" href="${fileName}" media-type="application/xhtml+xml" />`,
+          `<item id="deiec${String(index + 1).padStart(
+            3,
+            "0",
+          )}" href="${fileName}" media-type="application/xhtml+xml" />`,
       )
       .join("\n    ")}
   </manifest>
