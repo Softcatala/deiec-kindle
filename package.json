@@ -8,6 +8,6 @@
     "prettier": "^3.5.3"
   },
   "scripts": {
-    "fix": "prettier --write *.js *.json"
+    "fix": "prettier --write ."
   }
 }
