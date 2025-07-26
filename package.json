@@ -2,7 +2,7 @@
   "name": "deiec.iec.cat",
   "version": "1.0.0",
   "dependencies": {
-    "cheerio": "^1.1.0"
+    "cheerio": "^1.1.2"
   },
   "devDependencies": {
     "prettier": "^3.5.3"
